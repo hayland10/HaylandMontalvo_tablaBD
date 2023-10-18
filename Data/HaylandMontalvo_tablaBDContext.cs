@@ -15,5 +15,6 @@ namespace HaylandMontalvo_tablaBD.Data
         }
 
         public DbSet<HaylandMontalvo_tablaBD.Models.Burger> Burger { get; set; } = default!;
+        public DbSet<HaylandMontalvo_tablaBD.Models.Promo> Promo { get; set; }
     }
 }
